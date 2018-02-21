@@ -10,7 +10,7 @@
 }
 
 @media (min-width: 992px) {
-  .mybadge a { min-height: 260px; }
+  .mybadge a { min-height: 300px; }
 }
 
 .mybadge a:hover {
