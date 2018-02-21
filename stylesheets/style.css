@@ -1,0 +1,33 @@
+.mybadge a {
+  border:solid 1px #000;
+  display:block;
+  margin: 10px 0;
+  padding:10px;
+}
+
+@media (min-width: 768px) {
+  .mybadge a { min-height: 270px; }
+}
+
+@media (min-width: 992px) {
+  .mybadge a { min-height: 260px; }
+}
+
+.mybadge a:hover {
+  background:#ccc;
+  text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+  .mybadge img {
+    width:200px;
+  }
+}
+.mybadge img {
+  margin:auto;
+}
+
+.mybadge .title {
+  padding:5px;
+}
